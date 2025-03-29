@@ -1,0 +1,81 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0f2f5;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+/* 导航按钮 */
+.nav-button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background: #0056b3;
+}
+
+/* 游戏卡片 */
+.game-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.game-card img {
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.game-title {
+    color: #333;
+    margin: 5px 0;
+}
+/* 添加渐变背景和动画 */
+body {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.game-card {
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* 响应式布局：手机适配 */
+@media (max-width: 600px) {
+  .game-card img {
+    width: 100%;
+  }
+}
+/* 新增Steam链接样式 */
+.steam-link {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #1b2838;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.steam-link:hover {
+  background: #2a475e;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏资源目录</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🕹️ 我的游戏收藏库</h1>
+    
+    <!-- 导航按钮区域 -->
+    <div id="nav-buttons" class="nav"></div>
+
+    <!-- 搜索框 -->
+    <input 
+      type="text" 
+      id="search-input" 
+      placeholder="搜索游戏名称..." 
+      onkeyup="searchGames()"
+      style="padding: 8px; width: 200px; margin: 10px 0;"
+    >
+
+    <!-- 游戏列表容器 -->
+    <div id="game-list" class="game-container"></div>
+
+    <!-- 关键修复：引入JS文件 -->
+    <script src="games.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,1 +1,0 @@
-export const EXTERNAL_LINK_REDIRECT_TIME = 5
